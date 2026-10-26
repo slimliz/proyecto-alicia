@@ -86,4 +86,37 @@ proyecto-alicia
 | 4 | 0 | Error: debe ser mayor o igual a 1 |  Coincide |
 | 5 | 51 | Error: excede el máximo de 50 |  Coincide |
 
-##  Capturas
+##  Evidencias de los ejercicios
+
+### Ejercicio 1 — La poción mágica
+
+**Interfaz:**
+![Interfaz Ejercicio 1](evidencias/ej1-interfaz.png)
+
+**Resultado exitoso:**
+![Resultado exitoso Ejercicio 1](evidencias/ej1-resultado-exito.png)
+
+**Resultado con error:**
+![Resultado con error Ejercicio 1](evidencias/ej1-resultado-error.png)
+
+### Ejercicio 2 — La merienda del Sombrerero Loco
+
+**Interfaz:**
+![Interfaz Ejercicio 2](evidencias/ej2-interfaz.png)
+
+**Resultado exitoso:**
+![Resultado exitoso Ejercicio 2](evidencias/ej2-resultado-exito.png)
+
+**Resultado con error:**
+![Resultado con error Ejercicio 2](evidencias/ej2-resultado-error.png)
+
+### Ejercicio 3 — El desafío de la Reina de Corazones
+
+**Interfaz:**
+![Interfaz Ejercicio 3](evidencias/ej3-interfaz.png)
+
+**Resultado exitoso:**
+![Resultado exitoso Ejercicio 3](evidencias/ej3-resultado-exito.png)
+
+**Resultado con error:**
+![Resultado con error Ejercicio 3](evidencias/ej3-resultado-error.png)
