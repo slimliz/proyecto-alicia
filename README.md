@@ -4,7 +4,7 @@
 
 - **Página publicada:** https://slimliz.github.io/proyecto-alicia/
 - **Repositorio Git:** https://github.com/slimliz/proyecto-alicia
-- **Video explicativo:** 
+- **Video explicativo:** https://youtu.be/kmgrFK5Qyhw
 
 ##  Estructura del proyecto
 proyecto-alicia
