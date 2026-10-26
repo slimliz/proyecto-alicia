@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafío Alicia en el País de las Maravillas - Programación Web I</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header>
+    <h1>Desafío - Alicia en el País de las Maravillas</h1>
+    <nav>
+      <a href="#ejercicio1">Ejercicio 1</a>
+      <a href="#ejercicio2">Ejercicio 2</a>
+      <a href="#ejercicio3">Ejercicio 3</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ============ EJERCICIO 1 ============ -->
+    <section id="ejercicio1">
+      <h2>Ejercicio 1. La poción mágica de Alicia</h2>
+      <p class="regla">
+        Regla: Nueva altura = Altura inicial + (Cantidad de poción × 0.8).
+        La puerta mide 120 cm de alto.
+      </p>
+      <form id="form1" novalidate>
+        <label for="altura">Altura inicial de Alicia (cm):</label>
+        <input type="number" id="altura" step="0.01" placeholder="Ej: 100">
+
+        <label for="pocion">Cantidad de poción (ml, entre 0 y 100):</label>
+        <input type="number" id="pocion" step="0.01" placeholder="Ej: 30">
+
+        <button type="submit">Calcular</button>
+        <button type="reset">Limpiar</button>
+      </form>
+      <div id="resultado1" class="resultado" role="status" aria-live="polite"></div>
+    </section>
+
+    <!-- ============ EJERCICIO 2 ============ -->
+    <section id="ejercicio2">
+      <h2>Ejercicio 2. La merienda del Sombrerero Loco</h2>
+      <p class="regla">
+        Precios por taza: Té 1.50 chelines · Café 2.00 chelines · Chocolate 2.25 chelines· Jugo de Naranja 1.25 chelines·
+        Descuento del 10% si el subtotal supera los 10.00. Máximo 10 tazas.
+      </p>
+      <form id="form2" novalidate>
+        <label for="nombre">Nombre del invitado:</label>
+        <input type="text" id="nombre" placeholder="Ej: Alicia">
+
+        <label for="bebida">Tipo de bebida:</label>
+        <select id="bebida">
+          <option value="">— Seleccione —</option>
+          <option value="te">Té (1.50 chelines)</option>
+          <option value="cafe">Café (2.00 chelines)</option>
+          <option value="chocolate">Chocolate caliente (2.25 chelines)</option>
+          <option value="jugo de naranja">Jugo de Naranja(1.25 chelines)</option>
+        </select>
+
+        <label for="tazas">Cantidad de tazas (1 a 10):</label>
+        <input type="number" id="tazas" step="1" placeholder="Ej: 5">
+
+        <button type="submit">Calcular pedido</button>
+        <button type="reset">Limpiar</button>
+      </form>
+      <div id="resultado2" class="resultado" role="status" aria-live="polite"></div>
+    </section>
+
+    <!-- ============ EJERCICIO 3 ============ -->
+    <section id="ejercicio3">
+      <h2>Ejercicio 3. El desafío de la Reina de Corazones</h2>
+      <p class="regla">
+        La Reina analiza cartas numeradas del 1 al número indicado (máximo 50).
+        Clasifica cada una como par o impar, y suma cada grupo.
+      </p>
+      <form id="form3" novalidate>
+        <label for="cartas">Cantidad de cartas (1 a 50):</label>
+        <input type="number" id="cartas" step="1" placeholder="Ej: 10">
+
+        <button type="submit">Analizar cartas</button>
+        <button type="reset">Limpiar</button>
+      </form>
+      <div id="resultado3" class="resultado" role="status" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Desafío - Lima Lizárraga Sarah Elizabeth</p>
+  </footer>
+
+  <script src="js/ejercicio1.js"></script>
+  <script src="js/ejercicio2.js"></script>
+  <script src="js/ejercicio3.js"></script>
+</body>
+</html>
